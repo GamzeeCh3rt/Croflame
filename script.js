@@ -54,3 +54,27 @@ async function loadAfisha() {
 }
 
 loadAfisha();
+
+// Блок правой кнопки мыши (ПК)
+document.addEventListener("contextmenu", function (e) {
+  e.preventDefault();
+  return false;
+});
+
+// Блок выделения текста (чтобы не было синего)
+document.addEventListener("selectstart", function (e) {
+  e.preventDefault();
+  return false;
+});
+
+// Блок копирования
+document.addEventListener("copy", function (e) {
+  e.preventDefault();
+  return false;
+});
+
+// Блок перетаскивания (drag)
+document.addEventListener("dragstart", function (e) {
+  e.preventDefault();
+  return false;
+});
