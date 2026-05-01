@@ -1,0 +1,26 @@
+[
+  {
+    "title": "абв",
+    "description": "Короткое описание первого проекта",
+    "image": "https://picsum.photos/400/600?random=1",
+    "link": "https://example.com"
+  },
+  {
+    "title": "Тестовый фильм 2",
+    "description": "Вторая карточка",
+    "image": "https://picsum.photos/400/600?random=2",
+    "link": "https://example.com"
+  },
+  {
+    "title": "Тестовый фильм 3",
+    "description": "Проект Kroflaime",
+    "image": "https://picsum.photos/400/600?random=3",
+    "link": "https://example.com"
+  },
+  {
+    "title": "Тестовый фильм 4",
+    "description": "Финальный тест",
+    "image": "https://picsum.photos/400/600?random=4",
+    "link": "https://example.com"
+  }
+]
