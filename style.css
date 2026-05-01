@@ -80,20 +80,9 @@ body{
 /* GRID */
 .grid{
   display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
   gap:22px;
   padding:40px;
-
-  max-width:1400px;
-  margin:0 auto;
-}
-
-/* MOBILE */
-@media (max-width: 768px){
-  .grid{
-    grid-template-columns:1fr;
-    padding:20px;
-  }
 }
 
 /* CARD */
@@ -106,11 +95,9 @@ body{
 
   border:1px solid rgba(255,255,255,0.08);
 
+  height:380px;
   display:flex;
   flex-direction:column;
-
-  min-height:380px;
-
   transition:0.25s;
 }
 
@@ -121,11 +108,14 @@ body{
   border-color:rgba(255,255,255,0.18);
 }
 
-/* IMAGE */
+/* IMAGE FIX (жёсткий) */
 .card img{
   width:100%;
   height:260px;
-  object-fit:cover;
+  min-height:260px;
+  max-height:260px;
+
+  object-fit:fill;   /* растягивает изображение как ты просил */
   display:block;
 }
 
@@ -139,6 +129,12 @@ body{
   padding:6px 12px 14px;
   font-size:12px;
   opacity:0.6;
+
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
 }
 
 /* CONTACT */
