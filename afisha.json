@@ -2,25 +2,7 @@
   {
     "title": "абв",
     "description": "Короткое описание первого проекта",
-    "image": "https://picsum.photos/400/600?random=1",
+    "image": "https://i.img.it.com/3E1vdJEX/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-20260428-144451.png",
     "link": "https://example.com"
   },
-  {
-    "title": "Тестовый фильм 2",
-    "description": "Вторая карточка",
-    "image": "https://picsum.photos/400/600?random=2",
-    "link": "https://example.com"
-  },
-  {
-    "title": "Тестовый фильм 3",
-    "description": "Проект Kroflaime",
-    "image": "https://picsum.photos/400/600?random=3",
-    "link": "https://example.com"
-  },
-  {
-    "title": "Тестовый фильм 4",
-    "description": "Финальный тест",
-    "image": "https://picsum.photos/400/600?random=4",
-    "link": "https://example.com"
-  }
 ]
