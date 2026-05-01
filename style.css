@@ -16,8 +16,8 @@ body{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  height:80px;
-  padding:0 40px;
+  height:80px;           /* фикс высота */
+  padding:0 40px;        /* убрали вертикальные отступы */
   position:sticky;
   top:0;
   z-index:10;
@@ -26,7 +26,6 @@ body{
   border-bottom:1px solid rgba(255,255,255,0.06);
 }
 
-/* LOGO */
 .logo{
   height:100%;
   display:flex;
@@ -34,7 +33,7 @@ body{
 }
 
 .logo img{
-  height:44px;
+  height:100%;     /* ровно в высоту бара */
   width:auto;
   object-fit:contain;
 }
@@ -80,11 +79,11 @@ body{
 /* GRID */
 .grid{
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:repeat(4, 1fr);
   gap:22px;
   padding:40px;
 
-  max-width:1200px;
+  max-width:1400px;
   margin:0 auto;
 }
 
